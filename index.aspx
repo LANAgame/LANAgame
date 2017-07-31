@@ -9,16 +9,6 @@
 	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-
-	<configuration>
-<system.webServer>
-.....
-<handlers>
-<add name="html" path="*.html" verb="*" modules="IsapiModule" scriptProcessor="%windir%\system32\inetsrv\asp.dll" resourceType="Either" />
-</handlers>
-.....
-</system.webServer>
-</configuration>
 	
 <style type="text/css">
 
